@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "name_prefix" {
-  default = ""
+  default = "staging"
 }
 
 variable "key_name" {
