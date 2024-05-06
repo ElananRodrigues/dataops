@@ -1,9 +1,0 @@
-{
-    "environment": "staging",
-    "cluster_name": "",
-    "service_name": "teste-repo",
-    "enable_terraform": "false",
-    "terraform": {
-        "destroy": "false"
-    }
-}
