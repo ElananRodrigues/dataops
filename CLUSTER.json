@@ -1,0 +1,7 @@
+{
+    "cluster_name": "",
+    "enable_terraform": "false",
+    "terraform": {
+        "destroy": "false"
+    }
+}
