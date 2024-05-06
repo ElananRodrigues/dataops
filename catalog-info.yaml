@@ -1,23 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: gitops
-  description: "Criando serviço gitops"
+  name: dataops
+  description: "Criando serviço DataOps"
   labels:
     system: web-apps
   tags:
     - terraform
-    - gitops
+    - dataops
   links:
-    - url: https://github.com/ElananRodrigues/gitops
+    - url: https://github.com/ElananRodrigues/dataops
       title: Backstage Sample Service GitHub
       icon: code
   annotations:
-    opsgenie.com/component-selector: 'tag:"service:gitops"'
-    jenkins.io/github-folder: 'ElananRodrigues/gitops'
+    opsgenie.com/component-selector: 'tag:"service:dataops"'
+    jenkins.io/github-folder: 'ElananRodrigues/dataops'
     fossa.io/project-name: backstage-sample-service
-    goharbor.io/repository-slug: 'ElananRodrigues/gitops'
-    github.com/project-slug: 'ElananRodrigues/gitops'
+    goharbor.io/repository-slug: 'ElananRodrigues/dataops'
+    github.com/project-slug: 'ElananRodrigues/dataops'
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
