@@ -1,5 +1,5 @@
 {
-    "cluster_name": "",
+    "cluster_name": "development",
     "enable_terraform": "false",
     "terraform": {
         "destroy": "false"
