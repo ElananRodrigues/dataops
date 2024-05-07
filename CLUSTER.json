@@ -1,5 +1,5 @@
 {
-    "environment": "staging",
+    "environment": "development",
     "cluster_name": "cluster-ecs-tutorial",
     "enable_terraform": "false",
     "terraform": {

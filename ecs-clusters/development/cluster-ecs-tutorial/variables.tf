@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "name_prefix" {
-  default = "development"
+  default = "cluster-ecs-tutorial-development"
 }
 
 variable "key_name" {
