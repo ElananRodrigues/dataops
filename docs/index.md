@@ -1,4 +1,4 @@
-## cluster-ecs-tutorial
+## stg-ecs
 
 ```mermaid
 flowchart TD;
