@@ -1,10 +1,12 @@
-## teste-repo
+## cluster-ecs-tutorial
 
 ```mermaid
 flowchart TD;
-    A1[ecs-services/staging/CMS] -->|Commit| B;
-    A2[ecs-services/production/CMS] -->|Commit| B;
-    B[SERVICE.json] -->|Com um PR feito para a branch main <br> o GIT Actions executa o terraform para subir <br> o serivço no Cluster ECS correspondente.| C{Action}
-    C --> D[Cluster ECS STG];
+    A1[ecs-clusters/development/cluster-ecs-tutorial] -->|Commit| B;
+    A2[ecs-clusters/staging/cluster-ecs-tutorial] -->|Commit| B;
+    A3[ecs-clusters/production/cluster-ecs-tutorial] -->|Commit| B;
+    B[CLUSTER.json] -->|Atualizando o arquivo CLUSTER.json <br> podemos criar um novo CLUSTER ou destruir.| C{Action}
+    C --> D[Cluster ECS DEV];
+    C --> E[Cluster ECS STG];
     C --> F[Cluster ECS PROD];
 ```
