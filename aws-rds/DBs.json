@@ -1,6 +1,6 @@
 {
-    "environment": "pg-data",
-    "db_name": "pg-data",
+    "environment": "development",
+    "db_name": "pg-data-ops",
     "enable_terraform": "false",
     "terraform": {
         "destroy": "false"
