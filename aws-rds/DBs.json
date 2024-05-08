@@ -1,0 +1,8 @@
+{
+    "environment": "staging",
+    "db_name": "pg-dados",
+    "enable_terraform": "false",
+    "terraform": {
+        "destroy": "false"
+    }
+}
