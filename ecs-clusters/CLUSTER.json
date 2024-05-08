@@ -1,0 +1,8 @@
+{
+    "environment": "development",
+    "cluster_name": "pg-data",
+    "enable_terraform": "false",
+    "terraform": {
+        "destroy": "false"
+    }
+}
