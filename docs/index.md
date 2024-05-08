@@ -1,4 +1,4 @@
-## pg-data
+## cluster-ecs-tutorial
 
 ```mermaid
 flowchart TD;

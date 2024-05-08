@@ -1,6 +1,6 @@
 {
     "environment": "development",
-    "cluster_name": "pg-data",
+    "cluster_name": "cluster-ecs-tutorial",
     "enable_terraform": "false",
     "terraform": {
         "destroy": "false"
