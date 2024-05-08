@@ -1,8 +1,0 @@
-{
-    "environment": "staging",
-    "cluster_name": "stg-ecs",
-    "enable_terraform": "false",
-    "terraform": {
-        "destroy": "false"
-    }
-}
