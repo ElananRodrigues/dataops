@@ -1,0 +1,8 @@
+{
+    "environment": "pg-data",
+    "db_name": "pg-data",
+    "enable_terraform": "false",
+    "terraform": {
+        "destroy": "false"
+    }
+}
