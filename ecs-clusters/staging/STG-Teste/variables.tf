@@ -10,12 +10,12 @@ variable "profile" {
 
 variable "instance_type" {
   description = "value of the instance type to launch the instance."
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
 variable "name_prefix" {
   description = "value of the name prefix to launch the instance."
-  default = "STG-Teste"
+  default = "STG-Teste-staging"
 }
 
 variable "desired_count" {
