@@ -1,6 +1,6 @@
 {
-    "environment": "development",
-    "cluster_name": "cluster-ecs-tutorial",
+    "environment": "staging",
+    "cluster_name": "STG-Teste",
     "enable_terraform": "false",
     "terraform": {
         "destroy": "false"
