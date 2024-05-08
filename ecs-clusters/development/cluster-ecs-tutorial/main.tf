@@ -2,9 +2,10 @@ terraform {
   required_providers {
     aws = { source = "hashicorp/aws", version = "5.17.0" }
   }
-}
 
-provider "aws" {
-  profile = "default"
-  region  = var.region
+  backend "s3" {
+    bucket = "hype-ecs-terraform-state"
+    key    = "cluster-ecs/development/cluster-ecs-tutorial/terraform.tfstate"
+    region = "us-east-1"
+  }
 }
